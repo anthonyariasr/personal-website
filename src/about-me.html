@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>arias.dev - About Me</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+     <!-- Include Slick Carousel CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 </head>
-<body class="bg-gray-800 text-gray-100 font-mono">
+<body class="bg-gray-900 text-gray-100 font-mono">
 
     <nav class="bg-gray-800 shadow-md">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
@@ -44,13 +53,92 @@
         </div>
     </nav>
 
+    <!-- About Me Section -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12">
+        <div class="text-center mb-10">
+            <h1 class="text-3xl font-bold text-gray-100">ABOUT ME</h1>
+        </div>
 
-    
+        <div class="flex flex-col items-center justify-center">
+            <!-- Avatar -->
+            <div class="flex-shrink-0 mb-6 md:mb-0">
+                <img src="./assets/images/anthony-photo.jpeg" alt="Anthony Arias" class="rounded-3xl h-52 w-52 object-cover mx-auto md:mx-0  border-slate-50 border-2 md:mb-8">
+            </div>
 
+            <!-- Biography -->
+            <div>
+                <p class="text-gray-200 text-lg mb-6 text-center p-6 md:px-20">
+                    I'm Anthony Arias, a passionate Full Stack Developer with a strong background in web development, 
+                    specializing in both front-end and back-end technologies. I'm enroll on a degree in Computer Science and 
+                    have a keen interest in creating dynamic and responsive web applications. I thrive in collaborative environments and am always eager to learn and take on new challenges.
+                </p>
 
-
-
-
+                <!-- Technical and Social Skills -->
+                <div class="h-4"></div>
+                <div class="grid grid-cols-1 gap-6 ">
+                    <!-- Technical Skills -->
+                    <div class="m-auto">
+                        <h2 class="text-xl font-semibold text-gray-100 mb-4 text-center">TECHNICAL SKILLS</h2>
+                        <ul class=" grid grid-cols-2 md:flex md:items-start">
+                            <li class="flex items-center flex-col justify-center m-4">
+                                <i class="devicon-html5-plain text-2xl mb-2 hover:text-orange-40"></i> HTML
+                            </li>
+                            <li class="flex items-center flex-col justify-center m-4 ">
+                                <i class="devicon-css3-plain text-2xl mb-2 "></i> CSS3
+                            </li>
+                            <li class="flex items-center flex-col justify-center m-4">
+                                <i class="devicon-javascript-plain text-2xl mb-2"></i> JavaScript
+                            </li>
+                            <li class="flex items-center flex-col justify-center m-4 ">
+                                <i class="devicon-python-plain text-2xl mb-2"></i> Python
+                            </li>
+                            <li class="flex items-center flex-col justify-center m-4 ">
+                                <i class="devicon-django-plain text-2xl mb-2 "></i> Django
+                            </li>
+                            <li class="flex items-center flex-col justify-center m-4 ">
+                                <i class="devicon-postgresql-plain text-2xl mb-2 "></i> PostgreSQL
+                            </li>
+                            <li class="flex items-center flex-col justify-center m-4 ">
+                                <i class="devicon-fastapi-plain text-2xl mb-2 "></i> FastAPI
+                            </li>
+                            <li class="flex items-center flex-col justify-center m-4 ">
+                                <i class="devicon-linux-plain text-2xl mb-2 "></i> Linux
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="h-4"></div>
+                    <!-- Social Skills -->
+                    <div class="m-auto">
+                        <h2 class="text-xl font-semibold text-gray-100 mb-4 text-center">SOCIAL SKILLS</h2>
+                        <ul class="md:flex md:items-start">
+                            <li class="flex items-center flex-col justify-center m-4 ">
+                                <p>Creativity</p>
+                            </li>
+                            <li class="flex items-center flex-col justify-center m-4 ">
+                                <p>Effective Communication</p>
+                            </li>
+                            <li class="flex items-center flex-col justify-center m-4">
+                                <p>Team Collaboration</p>
+                            </li>
+                            <li class="flex items-center flex-col justify-center m-4 ">
+                                <p>Problem Solving</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-10 mb-10">
+        <!-- Resume Section -->
+        <div class="text-center mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-8">Resume</h2>
+            <a href="./assets/CV_Anthony_Arias.pdf" download
+                class="bg-blue-600 text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-blue-700">
+                Download Resume (PDF)
+            </a>
+        </div>
+        
+    </section>
 
     <!-- Footer -->
     <footer class="bg-gray-800 py-4">
