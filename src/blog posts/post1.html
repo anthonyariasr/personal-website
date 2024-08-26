@@ -1,74 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>arias.dev - Blog</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-     <!-- Include Slick Carousel CSS -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-     
-</head>
-<body class="bg-gray-800 text-gray-100 font-mono">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>anthonyarias.dev - Post 1</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
+    <!-- Include Slick Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </head>
+  <body class="bg-gray-800 text-gray-100 font-mono">
     <nav class="bg-gray-800 shadow-md">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
-            <div class="flex justify-between h-20">
-                <div class="flex w-full items-center justify-between">
-                    <div class="flex-shrink-0 flex items-center">
-                        <a href="./index.html" class="text-xl font-bold text-gray-100 hover:text-blue-400 md:text-2xl">[ arias.dev ]</a>
-                    </div>
-                    <div class="hidden md:flex space-x-4 ml-10">
-                        <a href="./index.html" class="text-gray-300 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium md:text-lg">Home</a>
-                        <a href="./portfolio.html" class="text-gray-300 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium md:text-lg">Portfolio</a>
-                        <a href="./about-me.html" class="text-gray-300 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium md:text-lg">About Me</a>
-                        <a href="./blog.html" class="text-gray-300 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium md:text-lg">Blog</a>
-                        <a href="./contact.html" class="bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 md:text-lg">Contact</a>
-                    </div>
-                </div>
-                <div class="flex items-center">
-                    <button id="menu-button" class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-100 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" aria-label="Main menu" aria-expanded="false">
-                        <span id="menu-icon" class="material-icons">menu</span>
-                    </button>
-                </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+        <div class="flex justify-between h-20">
+          <div class="flex w-full items-center justify-between">
+            <div class="flex-shrink-0 flex items-center">
+              <a
+                href="./index.html"
+                class="text-xl font-bold text-gray-100 hover:text-blue-400 md:text-2xl"
+                >[ "anthonyarias" ]</a
+              >
             </div>
+            <div class="hidden md:flex space-x-4 ml-10">
+              <a
+                href="./index.html"
+                class="text-gray-300 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium md:text-lg"
+                >Home</a
+              >
+              <a
+                href="./portfolio.html"
+                class="text-gray-300 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium md:text-lg"
+                >Portfolio</a
+              >
+              <a
+                href="./about-me.html"
+                class="text-gray-300 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium md:text-lg"
+                >About Me</a
+              >
+              <a
+                href="./blog.html"
+                class="text-gray-300 hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium md:text-lg"
+                >Blog</a
+              >
+              <a
+                href="./contact.html"
+                class="bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 md:text-lg"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="flex items-center">
+            <button
+              id="menu-button"
+              class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-100 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              aria-label="Main menu"
+              aria-expanded="false"
+            >
+              <span id="menu-icon" class="material-icons">menu</span>
+            </button>
+          </div>
         </div>
+      </div>
 
-        <!-- Mobile menu, toggle classes based on menu state -->
-        <div id="mobile-menu" class="hidden md:hidden bg-gray-800">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="./index.html" class="text-gray-300 hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-                <a href="./portfolio.html" class="text-gray-300 hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium">Portfolio</a>
-                <a href="./about-me.html" class="text-gray-300 hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium">About Me</a>
-                <a href="./blog.html" class="text-gray-300 hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium">Blog</a>
-                <a href="./contact.html" class="bg-blue-600 text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
-            </div>
+      <!-- Mobile menu, toggle classes based on menu state -->
+      <div id="mobile-menu" class="hidden md:hidden bg-gray-800">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <a
+            href="./index.html"
+            class="text-gray-300 hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium"
+            >Home</a
+          >
+          <a
+            href="./portfolio.html"
+            class="text-gray-300 hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium"
+            >Portfolio</a
+          >
+          <a
+            href="./about-me.html"
+            class="text-gray-300 hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium"
+            >About Me</a
+          >
+          <a
+            href="./blog.html"
+            class="text-gray-300 hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium"
+            >Blog</a
+          >
+          <a
+            href="./contact.html"
+            class="bg-blue-600 text-white block px-3 py-2 rounded-md text-base font-medium"
+            >Contact</a
+          >
         </div>
+      </div>
     </nav>
-
-
-
-
-
-
-
-
-
-
 
     <!-- Footer -->
     <footer class="bg-gray-800 py-4">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 text-center">
-            <p class="text-gray-400">&copy; 2024 arias.dev - All rights reserved.</p>
-        </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 text-center">
+        <p class="text-gray-400">
+          &copy; 2024 anthonyarias.dev - All rights reserved.
+        </p>
+      </div>
     </footer>
 
     <script src="./scripts.js"></script>
-
-</body>
+  </body>
 </html>
