@@ -1,1 +1,1 @@
-Website -> [link](anthonyarias.dev)
+Website -> [anthonyarias.dev](anthonyarias.dev)
